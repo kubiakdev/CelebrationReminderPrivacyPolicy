@@ -1,0 +1,38 @@
+body {
+    background-color: #277455;
+    font-size: large;
+}
+
+hr {
+    border-top: 1px solid #bbb;
+}
+
+h2 {
+    text-align: center;
+    font-size: larger;
+}
+
+.internalContainer {
+    padding: 3em;
+}
+
+#container {
+    background: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Metropolis', Metropolis, Arial, sans-serif;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+#title {
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url('fonts/metropolis-medium-webfont.woff');
+}
