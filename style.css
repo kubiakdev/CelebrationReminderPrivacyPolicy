@@ -47,7 +47,7 @@ h2 {
         transition: null
     }
     .internalContainer {
-        padding: 0;
+        padding: 1em;
     }
 }
 
