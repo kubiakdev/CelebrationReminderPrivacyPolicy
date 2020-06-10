@@ -36,3 +36,36 @@ h2 {
     font-family: Metropolis;
     src: url('fonts/metropolis-medium-webfont.woff');
 }
+
+@media screen and (max-width: 500px) {
+    #container {
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        box-shadow: white;
+        transition: null
+    }
+    .internalContainer {
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .internalContainer {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    #container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .internalContainer {
+        padding: 2.5em;
+    }
+}
